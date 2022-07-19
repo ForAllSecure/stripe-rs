@@ -480,6 +480,7 @@ def_id!(
         TransferReversal(TransferReversalId),
     }
 );
+def_id!(BillingPortalConfigurationId, "bpc_");
 def_id!(CardId, "card_");
 def_id!(CardTokenId, "tok_");
 def_id!(ChargeId, "ch_" | "py_"); // TODO: Understand (and then document) why "py_" is a valid charge id
@@ -533,6 +534,7 @@ def_id!(RecipientId: String); // FIXME: This doesn't seem to be documented yet
 def_id!(RefundId, "re_" | "pyr_");
 def_id!(ReviewId, "prv_");
 def_id!(ScheduledQueryRunId, "sqr_");
+def_id!(SessionId, "bps_");
 def_id!(SetupIntentId, "seti_");
 def_id!(SkuId, "sku_");
 def_id!(SourceId, "src_");
